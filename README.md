@@ -13,15 +13,13 @@ Personal portfolio website for Tarek Mohamed, Backend Developer & Software Engin
 portfolio/
 ├── index.html              # Main page
 ├── css/
-│   ├── style.css           # Base styles & CSS variables
-│   ├── animations.css      # Keyframes & scroll reveal
-│   ├── navbar.css          # Navigation (desktop + mobile)
-│   ├── hero.css            # Hero section & buttons
-│   └── sections.css        # Projects, Skills, Experience, Contact
+│   └── style.css           # Base styles & CSS variables
 ├── js/
-│   └── main.js             # Scroll reveal, nav behavior, interactions
+│   └── script.js             # Scroll reveal, nav behavior, interactions
 ├── assets/
-│   └── img/                # Profile photo & project screenshots
+│   └── img/ 
+├── sections/
+│   └── ...               
 └── README.md
 ```
 

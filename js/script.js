@@ -18,13 +18,14 @@
 const SECTIONS = [
   'sections/nav.html',
   'sections/hero.html',
-  'sections/services.html',
+  // 'sections/services.html',
   'sections/about.html',
-  'sections/skills.html',
+  'sections/education.html',
   'sections/projects.html',
   'sections/experience.html',
+  'sections/skills.html',
   'sections/achievements.html',
-  'sections/education.html',
+  'sections/CP.html',
   'sections/contact.html',
   'sections/footer.html',
 ];

@@ -602,7 +602,9 @@ section { padding: 100px 6%; }
 
 /* ── 13. CONTACT ── */
 .contact-inner {
-  display: grid;
+  /* display: grid; */
+  display: flex;
+  flex-direction: column;
   grid-template-columns: 1fr 1fr;
   gap: 60px;
   align-items: start;
@@ -617,17 +619,25 @@ section { padding: 100px 6%; }
 }
 
 .contact-icon {
-  width: 44px; height: 44px;
-  border-radius: 8px;
-  background: var(--accent-dim);
-  border: 1px solid var(--accent-mid);
-  display: flex; align-items: center; justify-content: center;
-  font-size: 18px;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.05);
   flex-shrink: 0;
 }
 
+.contact-icon img {
+  width: 70%;
+  height: 70%;
+  object-fit: contain;
+  filter: brightness(1.2); /* optional */
+}
+
 .contact-info-label {
-  font-size: 11px;
+  font-size: 13px;
   color: var(--text-muted);
   letter-spacing: 1px;
   text-transform: uppercase;
