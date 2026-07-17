@@ -684,11 +684,12 @@ section {
   display: flex;
   align-items: flex-start;
   gap: 16px;
-  transition: border-color 0.3s;
+  transition: border-color 0.3s, transform 0.2s;
 }
 
 .ach-card:hover {
   border-color: var(--accent);
+  transform: translateY(-2px);
 }
 
 .ach-icon {
@@ -707,6 +708,27 @@ section {
   font-size: 12px;
   color: var(--text-secondary);
   line-height: 1.6;
+}
+
+.ach-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.ach-link:hover {
+  color: var(--accent);
+}
+
+.ach-link img {
+  width: 16px;
+  height: 16px;
 }
 
 /* CP */

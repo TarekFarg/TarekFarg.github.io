@@ -25,7 +25,7 @@ const SECTIONS = [
   'sections/experience.html',
   'sections/skills.html',
   'sections/achievements.html',
-  'sections/CP.html',
+  // 'sections/CP.html',
   'sections/contact.html',
   'sections/footer.html',
 ];
