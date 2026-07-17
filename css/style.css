@@ -530,6 +530,13 @@ section {
   margin-bottom: 10px;
 }
 
+.project-links {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .project-github-link {
   display: inline-flex;
   align-items: center;
